@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Aquarium {
-    List<Fish> fishes = new ArrayList<>();
+    private List<Fish> fishes = new ArrayList<>();
 
 
     public List<String> getStatus() {

@@ -1,6 +1,5 @@
 package hu.nive.ujratervezes.zarovizsga.aquarium;
 
-
 public abstract class Fish {
     private String name;
     private int weight;
@@ -14,16 +13,17 @@ public abstract class Fish {
         this.hasMemoryLoss = hasMemoryLoss;
     }
 
-    public String status(){
+    public String status() {
         return String.format("%s, weight: %d, color: %s, short term memory loss: %b",
-                name,weight,color,hasMemoryLoss);
+                name, weight, color, hasMemoryLoss);
     }
 
     public abstract void feed();
 
-    protected void increaseWeight(int value){
-        weight+=value;
+    protected void increaseWeight(int value) {
+        weight += value;
     }
+
     public String getName() {
         return name;
     }

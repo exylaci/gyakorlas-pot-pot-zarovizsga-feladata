@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class HouseCup {
-    DataSource source;
+    private DataSource source;
 
     public HouseCup(DataSource source) {
         this.source = source;
