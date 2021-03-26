@@ -15,7 +15,7 @@ public abstract class Fish {
     }
 
     public String status(){
-        return String.format("%s, weight: %d, color: %s, short-term memory loss: %b",
+        return String.format("%s, weight: %d, color: %s, short term memory loss: %b",
                 name,weight,color,hasMemoryLoss);
     }
 
